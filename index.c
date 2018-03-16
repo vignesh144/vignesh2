@@ -4,13 +4,13 @@ void main()
  int n;
 scanf("%d\n",&n);
 int a[n];
-int i;
-for(i=0;i<n;i++)
+int j;
+for(j=0;j<n;j++)
 {
- scanf("%d ",&a[i]);
+ scanf("%d ",&a[j]);
  }
-for(i=0;i<n;i++)
+for(j=0;j<n;j++)
 {
- printf("%d %d\n",a[i],i);
+ printf("%d %d\n",a[j],j);
 }
 }
